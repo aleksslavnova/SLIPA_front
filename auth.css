@@ -1,0 +1,40 @@
+*{
+  font-family: "Inter";
+	font-style: normal;
+}
+body{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: linear-gradient(to right, rgba(255,255,255,0.3) 5%,
+              rgba(255,255,255,0.8)), url(./image/Back_auth_page-0001.jpg);
+    justify-content: center;
+    background-size: contain;
+    background-repeat: repeat;
+    ;
+}
+.enter {
+	background-color: #ff1695;
+	color: #ffffff;
+	border: none;
+	padding: 10px 28px 11px 28px;
+	border-radius: 15px;
+    cursor: pointer;
+}
+.text-center {
+	text-align: center !important;
+}
+.form-signin {
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+}
+.text-center{
+  height: 100vh;
+  align-items: center
+}
+@media (max-width: 1250px) {
+  /* … */
+}
