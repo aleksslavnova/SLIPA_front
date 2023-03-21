@@ -1,0 +1,14 @@
+
+.btn-primary.event {
+	background-color: #ff1695;
+	color: #ffffff;
+	border: none;
+	padding: 10px 28px 11px 28px;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 75px;
+
+}
+@media (max-width: 345px) {
+  
+}
