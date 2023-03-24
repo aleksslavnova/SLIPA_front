@@ -1,0 +1,116 @@
+h1{
+  margin: 0;
+}
+
+.main {
+	background-color: #ff1695;
+}
+body {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	background-image: url(./image/back_card.jpg);
+	justify-content: center;
+	background-size: contain;
+	background-repeat: repeat;
+}
+
+.map-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+.map-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	width: 475px;
+	height: 255px;
+}
+
+.button-transparent-bg {
+	width: 186px;
+	height: 28px;
+	line-height: 114.97%;
+	letter-spacing: -0.02em;
+	color: #ff1695;
+	background: transparent;
+	border-radius: 10px;
+	border: 1px solid #ff1695;
+}
+.button-entrance {
+	border: none;
+}
+.header {
+	width: 443px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 77px;
+	letter-spacing: -0.065em;
+	color: #000000;
+}
+.text {
+	font-family: "Inter";
+	font-style: normal;
+	width: 417px;
+	font-weight: 400;
+	line-height: 140.52%;
+	letter-spacing: -0.05em;
+	padding-left: 20px;
+}
+.mainBox {
+	display: flex;
+	justify-content: space-between;
+  margin-top: 60px;
+  flex-wrap: wrap;
+
+}
+.textFooter {
+	width: 226px;
+	height: 87px;
+	font-size: 12px;
+	margin: 30px;
+}
+.price-container {
+	position: absolute;
+	padding: 2px;
+	left: 15px;
+	bottom: 15px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 11px;
+	line-height: 114.97%;
+	background: #ff1695;
+	color: #000000;
+}
+.card-header-custom {
+	position: relative;
+}
+.form-control .search {
+	border: #ff1695;
+}
+.search.form-control{
+  max-width: 300px;
+  border: 1px solid #ff1695;
+}
+.card-header-custom img{
+  width: 400px;
+}
+.subscribe{
+color: #FFFFFF;
+background-color: #ff1695;
+border: none;
+border-radius: 4px;
+width: 163px;
+height: 37px;
+}
+
