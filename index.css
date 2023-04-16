@@ -1,5 +1,5 @@
 main {
-  	background-color:#ffffff;
+	background-color: #ffffff;
 }
 
 body {
@@ -13,8 +13,12 @@ body {
 a {
 	text-decoration: none !important;
 }
+a.card {
+	color: #000000 !important;
+}
 
 .button-transparent-bg {
+	text-align: center;
 	width: 186px;
 	height: 28px;
 	line-height: 114.97%;
@@ -44,7 +48,6 @@ a {
 }
 .button-entrance {
 	border: none;
-
 }
 
 .funk-house {
@@ -102,17 +105,16 @@ a {
 	color: #000000;
 }
 @media (max-width: 650px) {
-  .funk-house{
-    font-size: 60px;
-  }
-  .carousel-container {
-    padding: 2rem;
-  }
+	.funk-house {
+		font-size: 60px;
+	}
+	.carousel-container {
+		padding: 2rem;
+	}
 }
-.subscribe{
-color: #FFFFFF;
-background-color: #ff1695;
-border: none;
-border-radius: 4px;
-
+.subscribe {
+	color: #ffffff;
+	background-color: #ff1695;
+	border: none;
+	border-radius: 4px;
 }
